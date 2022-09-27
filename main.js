@@ -22,8 +22,6 @@ menuItems.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });
 
-// Modal Popup
-
 const projects = [
   {
     name: 'Chat em Grupo',
