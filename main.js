@@ -227,19 +227,4 @@ function init() {
   }
 }
 
-const modal = document.getElementById('myModal');
-const span = document.getElementsByClassName('close')[0];
-
-// eslint-disable-next-line func-names
-span.onclick = function () {
-  modal.style.display = 'none';
-};
-
-// eslint-disable-next-line func-names
-window.onclick = function (event) {
-  if (event.target === modal) {
-    modal.style.display = 'none';
-  }
-};
-
 window.onload = init();
