@@ -90,6 +90,41 @@ const projects = [
     linkLive: '',
     linkSource: 'https://github.com/RToramaru/lista-de-tarefa-app',
   },
+
+  {
+    name: 'Cerbero Mercosul Desktop',
+    details: ['Cerbero', 'Desktop', '2022'],
+    smallDescription:
+      'Sistema de detecção de placas veiculares',
+    bigDescription:
+      "A aplicação Cerbero-Mercosul-Desktop é um sistema para detecção de placas veiculares. Projetado como um software para desktop desenvolvivo em Python, no qual realiza a detecção dos veículos e salva em um banco de dados PostgreSQL.",
+    imageUrlMobile: 'assets/cerbero-mercosul-desktop.png',
+    imageUrlDesktop: 'assets/cerbero-mercosul-desktop.png',
+    technologiesPopup: ['Python', 'PostgrqSQL', 'OpenCV', 'YoloV7', 'PySide'],
+    technologies: ['Python', 'PostgrqSQL', 'OpenCV', 'YoloV7', 'PySide'],
+    popupImageUrlMobile: 'assets/cerbero-mercosul-desktop.png',
+    popupImageUrlDesktop: 'assets/cerbero-mercosul-desktop.png',
+    linkLive: '',
+    linkSource: 'https://github.com/RToramaru/cerbero-mercosul',
+  },
+
+  {
+    name: 'Cerbero Mercosul Web',
+    details: ['Cerbero', 'Web', '2022'],
+    smallDescription:
+      'Sistema de detecção de placas veiculares',
+    bigDescription:
+      "A aplicação Cerbero-Mercosul-Web é um sistema consulta a para detecção de placas veiculares.",
+    imageUrlMobile: 'assets/cerbero-mercosul-web.png',
+    imageUrlDesktop: 'assets/cerbero-mercosul-web.png',
+    technologiesPopup: ['PHP', 'PostgrqSQL', 'YII2'],
+    technologies: ['PHP', 'PostgrqSQL', 'YII2'],
+    popupImageUrlMobile: 'assets/cerbero-mercosul-web.png',
+    popupImageUrlDesktop: 'assets/cerbero-mercosul-web.png',
+    linkLive: '',
+    linkSource: 'https://github.com/RToramaru/cerbero-mercosul',
+  },
+  
   {
     name: 'Sicoin - Sistema de Controle de Insumos',
     details: ['Sicoin', 'Web', '2022'],
@@ -107,22 +142,6 @@ const projects = [
     linkSource: 'https://github.com/RToramaru/web-sicoin',
   },
 
-  {
-    name: 'Cerbero',
-    details: ['Sicoin', 'Web', '2022'],
-    smallDescription:
-      'Sistema de detecção de placas veiculares',
-    bigDescription:
-      "O cerbero é um sistema de detecção de placas veiculares. Desenvolvido como projeto de pesquisa, o cerbero foi pensado para melhorar o funcionamento do IFNMG - Campus Salinas, realizando o registro automático de placas veiculares.",
-    imageUrlMobile: 'assets/cerbero.png',
-    imageUrlDesktop: 'assets/cerbero.png',
-    technologiesPopup: ['Python', 'PHP'],
-    technologies: ['Python', 'PHP', 'YOLO', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-    popupImageUrlMobile: 'assets/cerbero.png',
-    popupImageUrlDesktop: 'assets/cerbero.png',
-    linkLive: '',
-    linkSource: 'https://github.com/RToramaru/cerbero',
-  },
   {
     name: 'Lista de Tarefa',
     details: ['Lista de Tarefa', 'Web', '2021'],
